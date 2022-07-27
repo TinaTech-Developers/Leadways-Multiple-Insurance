@@ -335,3 +335,18 @@ jQuery(document).ready(function($) {
 	toolTipInit();
 
 });
+
+// This is for the email services
+
+function sendMail(params){
+	var tempParams = {
+		from_name:document.getElementById("fullname").value,
+		to_name:document.getElementById("toname").value,
+		message:document.getElementById("msg").value
+	};
+
+	emailjs.send('gmail, template_yyz8q7k', tempParams)
+	.then(function(res){
+		console.log("success", res.status);
+	})
+}
