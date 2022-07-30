@@ -584,6 +584,15 @@
         </div>
       </footer>
     </div>
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -599,4 +608,14 @@
 
     <script src="js/main.js"></script>
   </body>
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+
+  <script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+      });
+  </script>  </div>
+
 </html>
