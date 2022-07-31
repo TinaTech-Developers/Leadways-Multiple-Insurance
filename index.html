@@ -32,8 +32,15 @@
     <link rel="stylesheet" href="css/aos.css" />
 
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body style="background-image: url('images/bg.jpg')">
+
+    <div class="loader">
+      <div></div>
+    </div>
+
+  <div class="content">
     <div class="site-wrap">
       <div class="site-mobile-menu">
         <div class="site-mobile-menu-header">
@@ -584,15 +591,8 @@
         </div>
       </footer>
     </div>
-    <div class="loader-wrapper">
-      <span class="loader"><span class="loader-inner"></span></span>
-    </div>
-
-    <script>
-        $(window).on("load",function(){
-          $(".loader-wrapper").fadeOut("slow");
-        });
-    </script>
+    
+   
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -607,15 +607,15 @@
     <script src="js/aos.js"></script>
 
     <script src="js/main.js"></script>
-  </body>
-  <div class="loader-wrapper">
-    <span class="loader"><span class="loader-inner"></span></span>
-  </div>
-
-  <script>
+    </div>
+    <script>
       $(window).on("load",function(){
-        $(".loader-wrapper").fadeOut("slow");
+        $(".loader").fadeOut(1000);
+        $(".content").fadeIn(1000);
       });
-  </script>  </div>
+  </script>  
+  
+  </body>
+
 
 </html>
