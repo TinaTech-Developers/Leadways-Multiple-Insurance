@@ -181,6 +181,18 @@ h5,
 .btn.pill {
   border-radius: 30px !important;
 }
+.btn.btn-outline-primary {
+  border-color: #02afef;
+  color: #555;
+}
+.btn.btn-outline-primary:hover {
+  background-color: #02afef;
+  color: #fff;
+}
+.btn.btn-primary{
+  background-color: #02afef;
+  border: none;
+}
 .btn.btn-white.btn-outline-white {
   border-color: #fff;
   background: transparent;
