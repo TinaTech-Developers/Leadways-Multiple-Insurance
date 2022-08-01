@@ -116,6 +116,7 @@ h5,
   background: #000 !important;
 }
 
+
 .line-height-sm {
   line-height: 1.3;
 }
@@ -180,6 +181,18 @@ h5,
 }
 .btn.pill {
   border-radius: 30px !important;
+}
+.btn.btn-outline-primary {
+  border-color: #02afef;
+  color: #555;
+}
+.btn.btn-outline-primary:hover {
+  background-color: #02afef;
+  color: #fff;
+}
+.btn.btn-primary{
+  background-color: #02afef;
+  border: none;
 }
 .btn.btn-white.btn-outline-white {
   border-color: #fff;
@@ -1163,7 +1176,7 @@ h5,
   height: 7px;
   border-radius: 50%;
   border: none;
-  float: left;
+  /* float: left; */
   background: #cccccc;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
