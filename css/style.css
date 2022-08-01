@@ -1176,7 +1176,7 @@ h5,
   height: 7px;
   border-radius: 50%;
   border: none;
-  float: left;
+  /* float: left; */
   background: #cccccc;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
