@@ -2172,3 +2172,48 @@ h5,
 .icons-flatico {
   color: #02afef !important;
 }
+.accordion .card {
+  border-top: 2px solid #02afef;
+  /* border-bottom: 2px solid #02afef; */
+  border-left: 0;
+  border-right: 0;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.accordion .card .card-body {
+  box-shadow: none;
+  border-bottom: 0;
+}
+.accordion .card .card-header {
+  background: none;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  border-radius: 0;
+  border: 0;
+}
+.accordion .card-header h2{
+  font-size: 20px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
+  cursor: pointer;
+  
+}
+.accordion .card-header i {
+  position:absolute;
+  top: 15px;
+  right: 1rem;
+  cursor:pointer;
+  color: #555;
+}
+.accordion .card-header h2 a {
+  font-weight: 600;
+  color: #555;
+}
+.accordion .card-header .btn:hover {
+  background:none;
+}
+
+/* .accordion .collapse {
+  border: 2px solid #02afef;
+  transition: 3s;
+} */
