@@ -2217,3 +2217,18 @@ h5,
   border: 2px solid #02afef;
   transition: 3s;
 } */
+
+/* Insuarance page styles  */
+.doc {
+  /* padding: 10px; */
+  box-sizing: border-box;
+  box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
+  height: 600px;
+  overflow-y: scroll;
+  color: #555;
+}
+.sideStatement {
+  background-color: #02afef;
+  color: #fff !important;
+  box-shadow: 0px 2px 15px rgba(2, 175,239, 0.4);
+}
