@@ -2232,3 +2232,6 @@ h5,
   color: #fff !important;
   box-shadow: 0px 2px 15px rgba(2, 175,239, 0.4);
 }
+.sideStatement h4 {
+  color: #fff;
+}
