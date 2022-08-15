@@ -2235,3 +2235,28 @@ h5,
 .sideStatement h4 {
   color: #fff;
 }
+.sideStatement .btn-about {
+  color: #fff;
+text-decoration: underline;
+}
+.floatti {
+  background-color: #02afef;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 30px;
+  box-shadow: 2px 2px 5px #02afef;
+  padding: 6px 12px;
+  width: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: 0.2s;
+}
+.floatti:hover {
+  background-color: #087299;
+}
+.icon-whatsapp {
+  font-size: 20px !important;
+  color: #fff !important;
+}
