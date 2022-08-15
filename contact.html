@@ -79,8 +79,8 @@
                       <ul class="site-menu js-clone-nav d-none d-lg-block">
                         <li><a href="index.html">Home</a></li>
                         <!-- <li class="has-children"> -->
-                          <li><a href="products.html">Products</a></li>
-                          <!-- <ul class="dropdown arrow-top">
+                        <li><a href="products.html">Products</a></li>
+                        <!-- <ul class="dropdown arrow-top">
                             <li><a href="#">Home Insurance</a></li>
                             <li><a href="#">Auto Insurance</a></li>
                             <li><a href="#">Travel Insurance</a></li>
@@ -121,7 +121,22 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12 col-lg-8 mb-5">
-                <form action="#" class="p-5 bg-white">
+                <form
+                  action="https://formsubmit.co/nyashamangurenje16@gmail.com"
+                  method="POST"
+                  class="p-5 bg-white"
+                >
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    value="New Email in your Inbox!"
+                  />
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="http://127.0.0.1:5501/thanks.html"
+                  />
+                  <input type="hidden" name="_captcha" value="false" />
                   <div class="row form-group">
                     <div class="col-md-12 mb-3 mb-md-0">
                       <label class="font-weight-bold" for="fullname"
@@ -133,6 +148,8 @@
                         class="form-control"
                         placeholder="Full Name"
                         autocomplete="off"
+                        name="Name"
+                        required
                       />
                     </div>
                   </div>
@@ -145,6 +162,8 @@
                         class="form-control"
                         placeholder="Email Address"
                         autocomplete="off"
+                        name="email"
+                        required
                       />
                     </div>
                   </div>
@@ -158,6 +177,8 @@
                         class="form-control"
                         placeholder="Phone #"
                         autocomplete="off"
+                        name="phone"
+                        required
                       />
                     </div>
                   </div>
@@ -175,17 +196,21 @@
                         class="form-control"
                         placeholder="Say hello to us"
                         autocomplete="off"
+                        name="message"
+                        required
                       ></textarea>
                     </div>
                   </div>
 
                   <div class="row form-group">
                     <div class="col-md-12">
-                      <input
+                      <button
                         type="submit"
                         value="Send Message"
                         class="btn btn-primary text-white px-4 py-2"
-                      />
+                      >
+                        Submit
+                      </button>
                     </div>
                   </div>
                 </form>
@@ -196,14 +221,17 @@
                   <h3 class="h5 text-black mb-3">Contact Info</h3>
                   <p class="mb-0 font-weight-bold">Address</p>
                   <p class="mb-4 text-black">
-                    402 Nora Court <br> Corner 3rd Street & Selous Street, Harare, Zimbabwe
+                    402 Nora Court <br />
+                    Corner 3rd Street & Selous Street, Harare, Zimbabwe
                   </p>
 
                   <p class="mb-0 font-weight-bold">Phone</p>
                   <p class="mb-4 text-black">0242 797 855</p>
 
                   <p class="mb-0 font-weight-bold">Email Address</p>
-                  <p class="mb-0 text-black"> <a href="mailto://info@lma.co.zw">info@lma.co.zw</a> </p>
+                  <p class="mb-0 text-black">
+                    <a href="mailto://info@lma.co.zw">info@lma.co.zw</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -296,7 +324,8 @@
                   <script>
                     document.write(new Date().getFullYear());
                   </script>
-                  All Rights Reserved | Designed by <a href="mailto://tinashephiri0@gmail.com">Tinatech</a>
+                  All Rights Reserved | Designed by
+                  <a href="mailto://tinashephiri0@gmail.com">Tinatech</a>
                 </p>
               </div>
             </div>
